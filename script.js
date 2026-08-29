@@ -9,7 +9,14 @@
 // 🔥 GROQ (para conversas - respeita prompt!)
 const GROQ_API_KEY = "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";
 const GROQ_URL = "https://api.groq.com/openai/v1/chat/completions";
-const GROQ_MODEL = "llama-3.1-8b-instant";
+// OPÇÃO 1: Mixtral (funciona!)
+const GROQ_MODEL = "mixtral-8x7b-32768";
+
+// OPÇÃO 2: Llama 3.3 (se tiver acesso)
+// const GROQ_MODEL = "llama-3.3-70b-versatile";
+
+// OPÇÃO 3: Gemma (Google)
+// const GROQ_MODEL = "gemma2-9b-it";
 
 // Mistral (para imagens)
 const MISTRAL_API_KEY = "0k7vwPq3YQ2lq29J1dcxciBwyxE5QBV5";
