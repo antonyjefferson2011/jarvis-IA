@@ -3,6 +3,7 @@ const ASSETS = [
     'index.html',
     'style.css',
     'script.js',
+    'script1.js',  // ← ADICIONE ESTA LINHA
     'manifest.json',
     'icon.png'
 ];
